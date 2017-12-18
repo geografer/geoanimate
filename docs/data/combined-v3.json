@@ -1,0 +1,479 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 15228,
+        "ObjectID": 15227,
+        "FEATURE": "100,000 - 249,999",
+        "NAME": "Reno",
+        "ST_ABBREV": "NV",
+        "FIPS": "32031",
+        "PLACE_FIPS": "60600",
+        "POP_2000": 180480,
+        "POP2007": 218593,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.81380880454026,
+          39.5296321291803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 11787,
+        "ObjectID": 11786,
+        "FEATURE": "1,000,000 - 9,999,999",
+        "NAME": "Chicago",
+        "ST_ABBREV": "IL",
+        "FIPS": "17031",
+        "PLACE_FIPS": "14000",
+        "POP_2000": 2896016,
+        "POP2007": 2921775,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65005873578144,
+          41.85003019763411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 2968,
+        "ObjectID": 2967,
+        "FEATURE": "50,000 - 99,999",
+        "NAME": "Fargo",
+        "ST_ABBREV": "ND",
+        "FIPS": "38017",
+        "PLACE_FIPS": "25700",
+        "POP_2000": 90599,
+        "POP2007": 95660,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.78979282635277,
+          46.87718719363198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 5962,
+        "ObjectID": 5961,
+        "FEATURE": "250,000 - 499,999",
+        "NAME": "Buffalo",
+        "ST_ABBREV": "NY",
+        "FIPS": "36029",
+        "PLACE_FIPS": "11000",
+        "POP_2000": 292648,
+        "POP2007": 278865,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.87836183228285,
+          42.88645212697628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 35539,
+        "ObjectID": 110,
+        "FEATURE": null,
+        "NAME": "Toronto",
+        "ST_ABBREV": null,
+        "FIPS": null,
+        "PLACE_FIPS": null,
+        "POP_2000": 0,
+        "POP2007": 0,
+        "STATUS": null,
+        "PROV": "ON",
+        "TERM": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38001203949045,
+          43.650007983454714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 26789,
+        "ObjectID": 26788,
+        "FEATURE": "less than 10,000",
+        "NAME": "Winslow",
+        "ST_ABBREV": "AZ",
+        "FIPS": "04017",
+        "PLACE_FIPS": "83930",
+        "POP_2000": 9520,
+        "POP2007": 9736,
+        "STATUS": null,
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.69735778626944,
+          35.024187141137816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 34332,
+        "ObjectID": 34331,
+        "FEATURE": "50,000 - 99,999",
+        "NAME": "Sarasota",
+        "ST_ABBREV": "FL",
+        "FIPS": "12115",
+        "PLACE_FIPS": "64175",
+        "POP_2000": 52715,
+        "POP2007": 54879,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.53064282063514,
+          27.336432244762364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 23154,
+        "ObjectID": 23153,
+        "FEATURE": "250,000 - 499,999",
+        "NAME": "Wichita",
+        "ST_ABBREV": "KS",
+        "FIPS": "20173",
+        "PLACE_FIPS": "79000",
+        "POP_2000": 344284,
+        "POP2007": 351710,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33754185020831,
+          37.69223713068868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 25625,
+        "ObjectID": 25624,
+        "FEATURE": "250,000 - 499,999",
+        "NAME": "Tulsa",
+        "ST_ABBREV": "OK",
+        "FIPS": "40143",
+        "PLACE_FIPS": "75000",
+        "POP_2000": 393049,
+        "POP2007": 399799,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.99277080309253,
+          36.15398419996268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 35520,
+        "ObjectID": 90,
+        "FEATURE": null,
+        "NAME": "Ottawa",
+        "ST_ABBREV": null,
+        "FIPS": null,
+        "PLACE_FIPS": null,
+        "POP_2000": 0,
+        "POP2007": 0,
+        "STATUS": null,
+        "PROV": "ON",
+        "TERM": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69996805455372,
+          45.42001205222954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 34056,
+        "ObjectID": 34055,
+        "FEATURE": "250,000 - 499,999",
+        "NAME": "Tampa",
+        "ST_ABBREV": "FL",
+        "FIPS": "12057",
+        "PLACE_FIPS": "71000",
+        "POP_2000": 303447,
+        "POP2007": 337828,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.45842685638308,
+          27.947523122311907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 32782,
+        "ObjectID": 32781,
+        "FEATURE": "10,000 - 49,999",
+        "NAME": "Panama",
+        "ST_ABBREV": "FL",
+        "FIPS": "12005",
+        "PLACE_FIPS": "54700",
+        "POP_2000": 36417,
+        "POP2007": 38537,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.66021281826733,
+          30.158814220125464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 1573,
+        "ObjectID": 1572,
+        "FEATURE": "less than 10,000",
+        "NAME": "Mattawa",
+        "ST_ABBREV": "WA",
+        "FIPS": "53025",
+        "PLACE_FIPS": "44165",
+        "POP_2000": 2609,
+        "POP2007": 3308,
+        "STATUS": null,
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.90282777069922,
+          46.73791212727747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 34840,
+        "ObjectID": 34839,
+        "FEATURE": "no data",
+        "NAME": "Paloma",
+        "ST_ABBREV": "TX",
+        "FIPS": "48061",
+        "PLACE_FIPS": "41416",
+        "POP_2000": -99999,
+        "POP2007": 363,
+        "STATUS": null,
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.66780578245363,
+          26.04651613703186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 1087,
+        "ObjectID": 1086,
+        "FEATURE": "10,000 - 49,999",
+        "NAME": "Bangor",
+        "ST_ABBREV": "ME",
+        "FIPS": "23019",
+        "PLACE_FIPS": "02795",
+        "POP_2000": 31473,
+        "POP2007": 31685,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.77780575675075,
+          44.801184109498934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 13990,
+        "ObjectID": 13989,
+        "FEATURE": "500,000 - 999,999",
+        "NAME": "Baltimore",
+        "ST_ABBREV": "MD",
+        "FIPS": "24510",
+        "PLACE_FIPS": "04000",
+        "POP_2000": 651154,
+        "POP2007": 627932,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.61218883109899,
+          39.29038512862371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 21891,
+        "ObjectID": 21890,
+        "FEATURE": "no data",
+        "NAME": "Salvo",
+        "ST_ABBREV": "NC",
+        "FIPS": "37055",
+        "PLACE_FIPS": "58940",
+        "POP_2000": -99999,
+        "POP2007": -99999,
+        "STATUS": null,
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.47227583867084,
+          35.54073324414384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID_1": 27488,
+        "ObjectID": 27487,
+        "FEATURE": "100,000 - 249,999",
+        "NAME": "Amarillo",
+        "ST_ABBREV": "TX",
+        "FIPS": "48375",
+        "PLACE_FIPS": "03000",
+        "POP_2000": 173627,
+        "POP2007": 183256,
+        "STATUS": "County Seat",
+        "PROV": null,
+        "TERM": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8312958133231,
+          35.221989181286744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "NAME": "Tocopilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.19772099099998,
+          -22.09316711699995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "NAME": "Barranquilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.78463520699995,
+          10.981229403000043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "NAME": "Padilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.30203820999998,
+          -19.30623332199997
+        ]
+      }
+    }
+  ]
+}

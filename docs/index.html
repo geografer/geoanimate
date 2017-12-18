@@ -2,17 +2,20 @@
 <meta charset="utf-8">
 <head>
 <title>Maps that talk</title>
-<link rel = "stylesheet" type = "text/css" href = "css/template.css" />
+<link rel = "stylesheet" type="text/css" href="template.css" />
 <link rel = "stylesheet" type = "text/css" id = "animationSheet" />
 </head>
 <body>
 <div id = "page">
+<p><h1>Where has Johnny Cash been?</h1>
+<h2>An animated map of all the cities Johnny Cash &quot;visits&quot; in his song &quot;I&#39;ve Been Everywhere&quot;, served by <a href="https://github.com/geografer/geoanimate">geoanimate.js</a>. Song excerpt used under the fair use provision of the Copyright Act.</h2>
+</p>
 <div id = "map"></div>
-<div class = "button" id = "start">Start!</div><div class = "button" id = "continue">Continue</div><div id = "player"></div>
+<div class = "button" id = "start"><h2>Start!</h2></div><div class = "button" id = "reset"><a href="../docs/index.html"><h2>Reset</h2></a></div><div id = "player"></div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
 <script>
 var container = "map",
 	topoJSON = "data/cash-2.json",
@@ -21,11 +24,28 @@ var container = "map",
 var width = 938,
     height = 500;
 
-var projection = d3.geo.mercator()
-    .scale(150)
-	.translate([width / 2, height / 1.5]);
+/*		var svg = d3.select("#"+container).append("svg")
 
-var path = d3.geo.path().projection(projection);
+	     var projection = d3.geoMercator()
+	       .scale(width / 2 / Math.PI)
+	       //.scale(100)
+	       .translate([width / 2, height / 2])
+
+	     var path = d3.geoPath()
+	       .projection(projection);
+
+	     var url = "http://enjalot.github.io/wwsd/data/world/world-110m.geojson";
+	     d3.json(url, function(err, geojson) {
+	       svg.append("path")
+	         .attr("d", path(geojson))
+	     }) */
+
+var projection = d3.geoMercator()
+	.scale(width/2/Math.PI)
+	.translate([width / 2, height / 2]);
+
+var path = d3.geoPath()
+	.projection(projection);
 
 var svg = d3.select("#"+container).append("svg")
 	.attr("preserveAspectRatio", "xMidYMid")
@@ -38,20 +58,36 @@ svg.append("rect")
     .attr("width", width)
     .attr("height", height);
 
-d3.json(topoJSON.feature(topoJSON), function(error, world) {
+d3.json("http://enjalot.github.io/wwsd/data/world/world-110m.geojson", function(error, world) {
 	svg.append("g")
-		.attr("id", "contries")
+		.append("path")
+		.attr("d", path(world));
+
+		/*.attr("id", "countries")
 		.selectAll('.country')
-		.data(topojson.feature(world, world.objects.countries).features)
+		.data(topojson.feature(world, world.objects.states).features)
 		.enter().append("path")
 		.attr("id", function(d) {return d.id})
 		.attr("d", path)
+		.attr("class", "country"); */
+
+		d3.json("data/combined-v3.json", function(error, cash) {
+			svg.append("g")
+			.attr("id", "cashLocations")
+			.selectAll(".cashLocation")
+			.data(cash.features)
+			.enter().append("path")
+			.attr("d", path)
+			.attr("class", "cash")
+			.attr("id", function(d) {return d.properties.NAME})
+		});
 });
+
 
 /* Some zoom functionality adopted from http://www.tnoda.com/blog/2013-12-07 */
 function zoom(xyz) {
 	svg.selectAll("g").transition()
-    	.duration(750)
+    	.duration(450)
     	.attr("transform", "translate(" + projection.translate() + ")scale(" + xyz[2] + ")translate(-" + xyz[0] + ",-" + xyz[1] + ")");
 }
 
@@ -64,9 +100,10 @@ function compute_zoom(elementList) {
 
 	for(i = 0; i < elementList.length; i++) {
 		var rect = svg.select('#'+elementList[i]).node().getBBox();
+		console.log(rect.height);
 
 		if (!bottom || rect.y < bottom) bottom = rect.y;
-		if (!top || (rect.y + rect.height) > top) top = rect.y + rect.height;
+		if (!top || (rect.y + rect.height) > top) top = rect.y + rect.height; //rect.height
 		if (!left || rect.x < left) left = rect.x
 		if (!right || (rect.x + rect.width) > right) right = rect.x + rect.width;
 	}
@@ -74,27 +111,27 @@ function compute_zoom(elementList) {
 	var w_scale = (right - left) / width;
 	var h_scale = (top - bottom) / height;
 
-	var z = .96 / Math.max(w_scale, h_scale);
+	var z = .93 / Math.max(w_scale, h_scale);
   	var x = (right + left) / 2;
   	var y = (top + bottom) / 2 + (height / z / 6);
   	return [x, y, z];
 }
 
-$(window).resize(function() {
+/*$(window).resize(function() {
   var w = $("#map").width();
   svg.attr("width", w);
   svg.attr("height", w * height / width);
-});
+}); */
 
 $('#start').on("click", function(e) {
 	$(this).hide();
 	$('#player').html("Loading...");
 
-	var jqxhr = $.ajax({ url: "animations/intro.json", async: false, dataType:"json"})
+	var jqxhr = $.ajax({ url: "data/cashvisualization.json", async: false, dataType:"json"})
 	.done(function(response) {
 
 			var audioPlayer = document.createElement("audio");
-			audioPlayer.setAttribute("src", "intro.ogg");
+			audioPlayer.setAttribute("src", "data/ivebeeneverywhere.ogg");
 			audioPlayer.setAttribute("id", "audioPlayer");
 			audioPlayer.setAttribute("autoplay", "autoplay");
 			audioPlayer.setAttribute("controls","controls");
@@ -139,7 +176,7 @@ $('#start').on("click", function(e) {
 			});
 			$(audioPlayer).bind('ended', function() {
 				$('#player').html("");
-				$('#continue').show();
+				$('#reset').show();
 			});
 	})
 	.fail(function(jqXHR, textStatus, errorThrown) {

@@ -1,0 +1,64 @@
+{
+  "animations": [
+    {
+      "delay": 0.6, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"}]
+    },
+    {
+      "delay": 1.2, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"}]
+    },
+    {
+      "delay": 1.8, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}]
+    },
+    {
+      "delay": 2.4, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}]
+    },
+    {
+      "delay": 3.0, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}]
+    },
+    {
+      "delay": 3.6, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}]
+    },
+    {
+      "delay": 4.4, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}]
+    },
+    {
+      "delay": 5.0, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}]
+    },
+    {
+      "delay": 5.6, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}]
+    },
+    {
+      "delay": 6.2, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}]
+    },
+    {
+      "delay": 6.8, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}]
+    },
+    {
+      "delay": 7.4, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}, {"name": "Panama", "zoom": "true"}]
+    },
+    {
+      "delay": 8.2, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}, {"name": "Panama", "zoom": "true"}, {"name": "Mattawa", "zoom": "true"}]
+    },
+    {
+      "delay": 8.8, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}, {"name": "Panama", "zoom": "true"}, {"name": "Mattawa", "zoom": "true"}, {"name": "Paloma", "zoom": "true"}]
+    },
+    {
+      "delay": 9.4, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}, {"name": "Panama", "zoom": "true"}, {"name": "Mattawa", "zoom": "true"}, {"name": "Paloma", "zoom": "true"}, {"name": "Bangor", "zoom": "true"}]
+    },
+    {
+      "delay": 10.0, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}, {"name": "Panama", "zoom": "true"}, {"name": "Mattawa", "zoom": "true"}, {"name": "Paloma", "zoom": "true"}, {"name": "Bangor", "zoom": "true"}, {"name": "Baltimore", "zoom": "true"}]
+    },
+    {
+      "delay": 10.6, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}, {"name": "Panama", "zoom": "true"}, {"name": "Mattawa", "zoom": "true"}, {"name": "Paloma", "zoom": "true"}, {"name": "Bangor", "zoom": "true"}, {"name": "Baltimore", "zoom": "true"}, {"name": "Amarillo", "zoom": "true"}]
+    },
+    {
+      "delay": 11.4, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}, {"name": "Panama", "zoom": "true"}, {"name": "Mattawa", "zoom": "true"}, {"name": "Paloma", "zoom": "true"}, {"name": "Bangor", "zoom": "true"}, {"name": "Baltimore", "zoom": "true"}, {"name": "Amarillo", "zoom": "true"}, {"name": "Tocopilla", "zoom": "true"}]
+    },
+    {
+      "delay": 12.0, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}, {"name": "Panama", "zoom": "true"}, {"name": "Mattawa", "zoom": "true"}, {"name": "Paloma", "zoom": "true"}, {"name": "Bangor", "zoom": "true"}, {"name": "Baltimore", "zoom": "true"}, {"name": "Amarillo", "zoom": "true"}, {"name": "Tocopilla", "zoom": "true"}, {"name": "Barranquilla", "zoom": "true"} ]
+    },
+    {
+      "delay": 12.6, "stylesheet": "", "selection": [{"name": "Reno", "zoom": "true"},{"name": "Chicago", "zoom": "true"},{"name": "Fargo", "zoom": "true"}, {"name": "Buffalo", "zoom": "true"}, {"name": "Toronto", "zoom": "true"}, {"name": "Winslow", "zoom": "true"}, {"name": "Sarasota", "zoom": "true"}, {"name": "Wichita", "zoom": "true"}, {"name": "Tulsa", "zoom": "true"}, {"name": "Ottawa", "zoom": "true"}, {"name": "Tampa", "zoom": "true"}, {"name": "Panama", "zoom": "true"}, {"name": "Mattawa", "zoom": "true"}, {"name": "Paloma", "zoom": "true"}, {"name": "Bangor", "zoom": "true"}, {"name": "Baltimore", "zoom": "true"}, {"name": "Amarillo", "zoom": "true"}, {"name": "Tocopilla", "zoom": "true"}, {"name": "Barranquilla", "zoom": "true"}, {"name": "Padilla", "zoom": "true"}  ]
+    }
+  ]
+}

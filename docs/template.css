@@ -1,0 +1,62 @@
+h1{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 32pt;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 5px;
+}
+h2{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  margin: 0;
+}
+#page{
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.background{
+  fill: #FFF;
+  stroke: #000;
+}
+.country{
+  fill: #000;
+  stroke: #FFF;
+}
+.cash{
+  fill: green;
+  stroke: green;
+}
+.button{
+  width: 90px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: green;
+  color: #FFF;
+  display: inline-block;
+  margin: 4px;
+}
+.button a{
+  color: #FFF;
+}
+.button a:visited{
+  color: #FFF;
+}
+.button a:hover{
+  text-decoration: none;
+}
+#reset{
+  display: none;
+}
+a{
+  color: blue;
+  text-decoration: none;
+}
+a:visited{
+  color: blue;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
