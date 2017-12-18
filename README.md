@@ -1,4 +1,4 @@
-# Geoanimate.js: Maps that Talk #
+# Geonarrator: Maps that Talk #
 The goal of this project is to make it easy to "narrate" your way through a map created with d3.js. To that end, it enables easy panning and zooming of a d3 SVG based on the playback status of an HTML 5 audio file.
 
 # Status #
